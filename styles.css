@@ -39,7 +39,7 @@ body{
 .know-style{
     position: absolute;
     bottom: 10px;
-    padding-bottom: 16px;
+    padding-bottom: 24px;
     left: 50%;
     transform: translate(-50%, 50%);
 }

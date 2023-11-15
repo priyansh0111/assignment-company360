@@ -114,7 +114,7 @@
                   <span class="price-currency">₹</span
                   ><span class="price">999</span>
                 </div>
-                <a href="">+ Statutors Fees</a>
+                <a href="">+ Statutory Fees</a>
               </div>
               <div class="paragraph">
                 A business structure in which two or more individuals manage a
@@ -262,7 +262,7 @@
       document.addEventListener("DOMContentLoaded", init);
 
       function init() {
-        let bigscreen = window.matchMedia("(min-width: 600px)");
+        let bigscreen = window.matchMedia("(min-width: 450px)");
         if (bigscreen.matches) {
           console.log("bigger");
           document.getElementById("small-screen").classList.add("hide");
@@ -277,7 +277,7 @@
       }
       function handleResize() {
         console.log("init is called");
-        let bigscreen = window.matchMedia("(min-width: 600px)");
+        let bigscreen = window.matchMedia("(min-width: 450px)");
         if (bigscreen.matches) {
           console.log("bigger");
           document.getElementById("small-screen").classList.add("hide");
