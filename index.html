@@ -262,7 +262,7 @@
       document.addEventListener("DOMContentLoaded", init);
 
       function init() {
-        let bigscreen = window.matchMedia("(min-width: 450px)");
+        let bigscreen = window.matchMedia("(min-width: 380px)");
         if (bigscreen.matches) {
           console.log("bigger");
           document.getElementById("small-screen").classList.add("hide");
@@ -277,7 +277,7 @@
       }
       function handleResize() {
         console.log("init is called");
-        let bigscreen = window.matchMedia("(min-width: 450px)");
+        let bigscreen = window.matchMedia("(min-width: 380px)");
         if (bigscreen.matches) {
           console.log("bigger");
           document.getElementById("small-screen").classList.add("hide");
